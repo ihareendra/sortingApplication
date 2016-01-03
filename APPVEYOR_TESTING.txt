@@ -1,0 +1,11 @@
+[00:00:00] Build started
+[00:00:01] git clone -q --branch=master https://github.com/ihareendra/sortingApplication.git C:\projects\sortingapplication
+[00:00:02] git checkout -qf 0bf9144484023926ac910525b4b68e02d30cf395
+[00:00:03] msbuild "sortingApplication.sln" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+[00:00:03] Microsoft (R) Build Engine version 14.0.24720.0
+[00:00:03] Copyright (C) Microsoft Corporation. All rights reserved.
+[00:00:03] 
+[00:00:06]   sortingApplication -> C:\projects\sortingapplication\sortingApplication\bin\Debug\sortingApplication.exe
+[00:00:06] Discovering tests...
+[00:00:07] OK
+[00:00:07] Build success
